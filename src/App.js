@@ -23,7 +23,7 @@ class App extends Component {
         <div className="row">
           <div className="col-xs-1 col-xs-offset-11">
             {/* 父子组件传值 */}
-            <Home name={"chenmx"} age={24} user={user}>
+            <Home name={"chenmx"} age={12} user={user}>
               <p>I am child1</p>
               {/* <p>I am child2</p> */}
             </Home>
